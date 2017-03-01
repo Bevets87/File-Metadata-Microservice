@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+  </head>
+  <body>
+  <div class='container'>
+  <h1>File Metadata Microservice</h1>
+  <p>Submit a FormData object that includes a file upload and receive a JSON response with the file size in bytes.</p>
+  <form class="form" method="post" enctype="multipart/form-data" action="/upload">
+     <input id="file-upload" name="files" type="file"/>
+     <input class="submitBtn" type="submit"/>
+   </form>
+</div>
+  </body>
+</html>
